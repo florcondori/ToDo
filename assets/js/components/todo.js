@@ -37,7 +37,7 @@ const reRender = (todoList, completedList)=>{
 };
 
 const Todo = ()=>{
-	const parent = $("<div class='with-card'></div>");
+	const parent = $("<div class='white-card'></div>");
 	const input = $("<input id='input-item' type='text' placeholder='Ingresa la tarea'>");
 	const todoTitle = $("<p>To do Items:</p>");
 	const list = $("<div class='list'></div>");

@@ -19,13 +19,12 @@ header .container{
 .white-card{
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin-top: 45px;
-	margin-bottom: 45px;
+	margin: 45px auto;
 	padding: 10px;
 	width: 30%;
 }
-
-.check-box{
+ 
+input[type="checkbox"]{
 	display: inline-block;
 	border: 1px solid gray;
 	margin-right: 10px;
@@ -33,21 +32,10 @@ header .container{
 	width: 10px;
 }
 
-.unchecked{
-	color: black;
-	text-decoration: none;
-}
-
-.checked{
-	color: gray;
-	font-style: italic;
-	text-decoration: line-through;
-
-}
-
 #input-item{
 	padding: 10px;
 	width: 95%;
+	outline: none;
 }
 
 .todo button{
